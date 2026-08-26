@@ -40,13 +40,7 @@ class dupValues{
 		for (int i = 0;i < newSize ;i++ ) {
 			newArray[i] = tempArray[i];
 		}
-		System.out.println("\n\nNew Array After Removing Duplicates:");
-
-        for (int i = 0; i < newArray.length; i++) {
-            System.out.print(newArray[i] + " ");
-        }
-
-        System.out.println("\n\nSize of Original Array: " + arr.length);
+		System.out.println("\nThe count of duplicate vales is");
         System.out.println("Size of New Array: " + newArray.length);
 	}
 }
